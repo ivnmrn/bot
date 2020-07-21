@@ -4,12 +4,19 @@ def beautifier_help():
 
 
 def beautifier_material(user, item):
-    result = (f"🍜<b>{user}</b>🍜(<a href='{item['url']}'>{user}</a>)\n"
+    result = (f"<b>{user}</b>"
               f"\nCategoria: {item['Categoria']}\n"
               f"Rec. PE: {item['Rec. PE']}\n"
               f"Grado potencia: {item['Grado potencia']}\n"
               f"Duracion: {item['Duracion']}\n"
-              f"Ubicacion: {item['Ubicacion']}")
+              f"Ubicacion: {item['Ubicacion']}\n"
+              f"<a href='{item['url']}'>Image</a>")
+    return result
+
+
+def beautifier_notfound():
+    result = "I don't know this item... 🐯\n(write <b>/list</b> to display the full list)\n " \
+             "<a href='https://www.zeldaeurope.de/galerie/albums/userpics/10003/normal_tfh_icon_confused.jpg'>Image</a>"
     return result
 
 

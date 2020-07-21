@@ -5,7 +5,9 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "70",
         "Ubicacion": "Keese.",
-        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/f/f8/BotW_Keese_Wing_Icon.png?version=669c4f39979e1a3fc170665573016c83"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/f/f8/BotW_Keese_Wing_Icon.png?version=669c4f39979e1a3fc170665573016c83",
+        "query": "Ala",
+        "offset": "",
     },
     "Ala de keese de fuego": {
         "Categoria": "Ninguna",

@@ -6,4 +6,4 @@ __pycache__/
 src/config/auth.py
 
 .idea/
-
+.DS_Store

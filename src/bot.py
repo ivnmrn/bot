@@ -56,25 +56,24 @@ def item(update, context):
                                  parse_mode='HTML')
 
 
-if __name__ == '__main__':
+def main():
     updater = Updater(token=token, use_context=True)
-    dispatcher = updater.dispatcher
+    dp = updater.dispatcher
 
-    # Start command
-    dispatcher.add_handler(CommandHandler('start', start))
-    # Help command
-    dispatcher.add_handler(CommandHandler('help', help))
-    # Display keyboard
-    dispatcher.add_handler(CommandHandler('keyboard', keyboard))
-    # Animations command
-    dispatcher.add_handler(CommandHandler('fox', animations))
-    # Nasa command
-    dispatcher.add_handler(CommandHandler('nasa', nasa))
-    # List command, show all items
-    dispatcher.add_handler(CommandHandler('list', list_items))
-    # Zelda command, when you use this command you will get the information of the item sent
-    # /Zelda {item to search}
-    dispatcher.add_handler(CommandHandler('zelda', item))
+    # On different commands - answer in Telegram
+    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(CommandHandler('help', help))
+    dp.add_handler(CommandHandler('keyboard', keyboard))
+    dp.add_handler(CommandHandler('fox', animations))
+    dp.add_handler(CommandHandler('nasa', nasa))
+    dp.add_handler(CommandHandler('list', list_items))
+    dp.add_handler(CommandHandler('zelda', item))
 
+    # Start the Bot
     updater.start_polling()
+
     updater.idle()
+
+
+if __name__ == '__main__':
+    main()

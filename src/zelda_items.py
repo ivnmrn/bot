@@ -103,7 +103,7 @@ materials = {
         "Grado potencia": "★★★★",
         "Duracion": "50",
         "Ubicacion": "Mar de Necluda,  Necluda oriental.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/5/56/BotW_Razorclaw_Crab_Icon.png?version=1ddd374811b025f5c437877f8da93209"
     },
     "Cangrejo robusto": {
         "Categoria": "Protector",
@@ -111,7 +111,7 @@ materials = {
         "Grado potencia": "★★★★",
         "Duracion": "50",
         "Ubicacion": "Mar de Necluda,  Necluda oriental.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/1/1c/BotW_Ironshell_Crab_Icon.png?version=81cb80749bf1b16434fde778387f335b"
     },
     "Cangrejo vigoroso": {
         "Categoria": "Vigorizante",
@@ -119,7 +119,7 @@ materials = {
         "Grado potencia": "★★★★",
         "Duracion": "-",
         "Ubicacion": "Manatial de Lanayru, Valle de Eldin.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/d/db/BotW_Bright-Eyed_Crab_Icon.png?version=3a9ebc3c0351cd9e96ba1c1d93f39be2"
     },
     "Cana de azucar": {
         "Categoria": "Ninguna",
@@ -127,7 +127,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "80 (30)",
         "Ubicacion": "Se vende en la tienda del Poblado orni.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/b/b5/BotW_Cane_Sugar_Icon.png?version=8e74bbd5acb17da91cd7aa1c6fa7bc37"
     },
     "Caracol sigiloso": {
         "Categoria": "Sigiloso",
@@ -135,7 +135,7 @@ materials = {
         "Grado potencia": "★",
         "Duracion": "120",
         "Ubicacion": "Necluda occidental, Manatial de Lanayru.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/8/82/BotW_Sneaky_River_Snail_Icon.png?version=c18debc3ff9dd1db55362c55be8042fe"
     },
     "Caracol vivaz": {
         "Categoria": "Vivaz",
@@ -143,7 +143,7 @@ materials = {
         "Grado potencia": "★★★",
         "Duracion": "-",
         "Ubicacion": "Mar de Necluda, Mar de Nayru.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/6/66/BotW_Hearty_Blueshell_Snail_Icon.png?version=0edd795d5fc9b04936f2c39f2e40a066"
     },
     "Carne de ave": {
         "Categoria": "Ninguna",
@@ -151,7 +151,7 @@ materials = {
         "Grado potencia": "\\xa0",
         "Duracion": "30",
         "Ubicacion": "Derrotando a las aves pequeñas.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/c/c5/BotW_Raw_Bird_Drumstick_Icon.png?version=f558fd75c8fde90f4dd437b373279f80"
     },
     "Carne de ave XL": {
         "Categoria": "Ninguna",
@@ -159,7 +159,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Derrotando a las aves pequeñas.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/7/77/BotW_Raw_Bird_Thigh_Icon.png?version=23ba14d1d14f5ed5ea96d15dd97d3082"
     },
     "Carne de ave XXL": {
         "Categoria": "Ninguna",
@@ -167,7 +167,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Derrotando a palomas blancas y los avestruces de Eldin.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/0/05/BotW_Raw_Whole_Bird_Icon.png?version=3a6f732291b94f4b65038d6a3931d0f2"
     },
     "Carne de caza": {
         "Categoria": "Ninguna",
@@ -175,7 +175,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Derrotando a mamíferos pequeños e inofensivos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/5/52/BotW_Raw_Meat_Icon.png?version=e605c228019b3bc78fee1811c51d004e"
     },
     "Carne de caza XL": {
         "Categoria": "Ninguna",
@@ -183,7 +183,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Derrotando a mamíferos más grandes y peligrosos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/c/c3/BotW_Raw_Prime_Meat_Icon.png?version=2145fa8856f71b65fe71374d4f991260"
     },
     "Carne de caza XXL": {
         "Categoria": "Ninguna",
@@ -191,7 +191,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Derrotando a mamíferos  grandes y peligrosos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/6/6f/BotW_Raw_Gourmet_Meat_Icon.png?version=8344f66254485eb9084a7ba039b08dc7"
     },
     "Carpa recia": {
         "Categoria": "Recio",
@@ -199,7 +199,7 @@ materials = {
         "Grado potencia": "★★★★",
         "Duracion": "50",
         "Ubicacion": "Sierra de Alkkala, Manatial de Lanayru.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/c/c8/BotW_Mighty_Carp_Icon.png?version=a8e98d248aae42c9d4786a1357b52bca"
     },
     "Carpa robusta": {
         "Categoria": "Protector",
@@ -207,7 +207,7 @@ materials = {
         "Grado potencia": "★★★★",
         "Duracion": "50",
         "Ubicacion": "Manatial de Lanayru, Necluda oriental.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/8/86/BotW_Armored_Carp_Icon.png?version=2efa2f6d93932fc28d0e7e8ac1a50f88"
     },
     "Carpa tricolor": {
         "Categoria": "Ninguna",
@@ -215,7 +215,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Necluda occidental.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/9/9c/BotW_Sanke_Carp_Icon.png?version=9a42365ccf94254269d82d918da5ddc3"
     },
     "Coco": {
         "Categoria": "Ninguna",
@@ -223,7 +223,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "30",
         "Ubicacion": "Necluda occidental, Desierto de Gerudo.",
-        "url": "None"
+        "url": "https://vignette.wikia.nocookie.net/zelda/images/6/6f/Coco_BotW.png/revision/latest?cb=20180422224620&path-prefix=es"
     },
     "Cola de lizalfos": {
         "Categoria": "Ninguna",
@@ -231,7 +231,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "190",
         "Ubicacion": "Lizalfos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/5/53/BotW_Lizalfos_Tail_Icon.png?version=3af92b5be658e69daf925c988fe7b830"
     },
     "Cola de lizalfos electrico": {
         "Categoria": "Ninguna",
@@ -239,7 +239,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "190",
         "Ubicacion": "Lizalfos eléctricos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/0/0c/BotW_Yellow_Lizalfos_Tail_Icon.png?version=02c6c37a0d256008f05cc4494654ab9c"
     },
     "Cola de lizalfos gelido": {
         "Categoria": "Ninguna",
@@ -247,7 +247,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "190",
         "Ubicacion": "Lizalfos gélidos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/9/98/BotW_Icy_Lizalfos_Tail_Icon.png?version=07ced0b106e11bba087e972aa159996e"
     },
     "Cola de lizalfos igneo": {
         "Categoria": "Ninguna",
@@ -255,7 +255,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "190",
         "Ubicacion": "Lizalfos ígneos.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/9/98/BotW_Icy_Lizalfos_Tail_Icon.png?version=07ced0b106e11bba087e972aa159996e"
     },
     "Colmillo de bokoblin": {
         "Categoria": "Ninguna",
@@ -263,7 +263,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "110",
         "Ubicacion": "Bokoblins.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/f/fa/BotW_Bokoblin_Fang_Icon.png?version=172670d126d331ed72ed67a87938e23c"
     },
     "Colmillo de Elden": {
         "Categoria": "Ninguna",
@@ -271,7 +271,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "630 (30)",
         "Ubicacion": "Dispara una flecha a la boca de Elden.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/8/81/BotW_Shard_of_Dinraal%27s_Fang_Icon.png?version=32866e507bb383ddee71c1ddcf48a0d9"
     },
     "Colmillo de Faren": {
         "Categoria": "Ninguna",
@@ -279,7 +279,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "630 (30)",
         "Ubicacion": "Dispara una flecha a la boca de Faren.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/1/10/BotW_Shard_of_Farosh%27s_Fang_Icon.png?version=91b3b56ee6397b66b40ba822672ae653"
     },
     "Colmillo de hinox": {
         "Categoria": "Ninguna",
@@ -287,7 +287,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "110",
         "Ubicacion": "Hinox.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/2/29/BotW_Hinox_Tooth_Icon.png?version=6f51e420793290183fb5ffa6d42bfb90"
     },
     "Colmillo de moblin": {
         "Categoria": "Ninguna",
@@ -295,7 +295,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "110",
         "Ubicacion": "Moblins.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/8/81/BotW_Moblin_Fang_Icon.png?version=6ac9eca890c41cc3d32b34803d75986b"
     },
     "Colmillo de Nayen": {
         "Categoria": "Ninguna",
@@ -303,7 +303,7 @@ materials = {
         "Grado potencia": "-",
         "Duracion": "630 (30)",
         "Ubicacion": "Dispara una flecha a la boca de Nayen.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/6/64/BotW_Shard_of_Naydra%27s_Fang_Icon.png?version=804a2485acda59dcb3b9f26b02e02b44"
     },
     "Cuerno de bokoblin": {
         "Categoria": "Ninguna",
@@ -895,7 +895,7 @@ materials = {
         "Grado potencia": "★★★★★",
         "Duracion": "-",
         "Ubicacion": "Cordillera de Hebra, Cordillera de Gerudo.",
-        "url": "None"
+        "url": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/3/3a/BotW_Big_Hearty_Radish_Icon.png?version=9b2361dc02b4655fdf4f75e66d2ede21"
     },
     "Rana briosa": {
         "Categoria": "Tonificante",

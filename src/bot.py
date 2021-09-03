@@ -57,7 +57,7 @@ def item(update, context):
 
 
 def filmafinity(update, context):
-    key = 'YOUR_TOKEN'
+    key = '798835be'
     fylm = " ".join(context.args)
     r = requests.get(f'http://www.omdbapi.com/?apikey={key}&t={fylm}').json()
     context.bot.send_message(chat_id=update.message.chat_id,

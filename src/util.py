@@ -23,3 +23,18 @@ def beautifier_notfound():
 def beautifier_nasa(r):
     result = f"🛰<b>{r['title']}</b>🛰(<a href='{r['url']}'>{r['date']}</a>) \n{r['explanation']}"
     return result
+
+def beautifier_filmafinity(r):
+    try:
+        title = r['Title']
+        year = r['Year']
+        imdbRating = r['imdbRating']
+        Runtime = r['Runtime']
+        Genre = r['Genre']
+        Plot = r['Plot']
+        urls = r['imdbID']
+        Poster = r['Poster']
+        result = f'<a href="{Poster}">{title}</a>({year}) \n{imdbRating} | {Runtime} | {Genre} \n{Plot} \n<a href="https://www.imdb.com/title/{urls}/">Read more</a>'
+        return result
+    except KeyError:
+        return "Film not found"

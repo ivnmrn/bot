@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler
 from telegram import ReplyKeyboardMarkup
 from config.auth import token
 from zelda_items import materials
-from util import beautifier_nasa, beautifier_material, beautifier_help, beautifier_notfound
+from util import beautifier_nasa, beautifier_material, beautifier_help, beautifier_notfound, beautifier_filmafinity
 import requests
 import random
 
@@ -56,6 +56,15 @@ def item(update, context):
                                  parse_mode='HTML')
 
 
+def filmafinity(update, context):
+    key = 'YOUR_TOKEN'
+    fylm = " ".join(context.args)
+    r = requests.get(f'http://www.omdbapi.com/?apikey={key}&t={fylm}').json()
+    context.bot.send_message(chat_id=update.message.chat_id,
+                            text=beautifier_filmafinity(r),
+                            parse_mode='HTML')
+
+
 def main():
     updater = Updater(token=token, use_context=True)
     dp = updater.dispatcher
@@ -68,7 +77,7 @@ def main():
     dp.add_handler(CommandHandler('nasa', nasa))
     dp.add_handler(CommandHandler('list', list_items))
     dp.add_handler(CommandHandler('zelda', item))
-
+    dp.add_handler(CommandHandler('filmafinity', filmafinity))
     # Start the Bot
     updater.start_polling()
 

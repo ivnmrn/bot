@@ -1,5 +1,5 @@
 def beautifier_help():
-    result = "🐯<b>Available commands: 🐯</b>\n\n •/fox \n •/nasa \n •/g + [text]\n •/zelda + [item]"
+    result = "🐯<b>Available commands: 🐯</b>\n\n •/fox \n •/nasa \n •/imdb + [movie]\n •/zelda + [item]"
     return result
 
 
@@ -23,3 +23,19 @@ def beautifier_notfound():
 def beautifier_nasa(r):
     result = f"🛰<b>{r['title']}</b>🛰(<a href='{r['url']}'>{r['date']}</a>) \n{r['explanation']}"
     return result
+
+def beautifier_imdb(r):
+    try:
+        title = r['Title']
+        year = r['Year']
+        imdbRating = r['imdbRating']
+        Runtime = r['Runtime']
+        Genre = r['Genre']
+        Plot = r['Plot']
+        urls = r['imdbID']
+        Poster = r['Poster']
+        result = f'<a href="{Poster}">{title}</a>({year}) \n{imdbRating} | {Runtime} | {Genre} \n{Plot} \n<a href="https://www.imdb.com/title/{urls}/">Read more</a>'
+        return result
+    except KeyError:
+        return "Film not found"
+

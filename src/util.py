@@ -38,4 +38,3 @@ def beautifier_imdb(r):
         return result
     except KeyError:
         return "Film not found"
-

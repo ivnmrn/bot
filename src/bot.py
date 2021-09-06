@@ -69,6 +69,7 @@ def imdb(update, context):
                                 parse_mode='HTML')
 
 
+
 def main():
     updater = Updater(token=TOKEN_TELEGRAM, use_context=True)
     dp = updater.dispatcher
@@ -82,6 +83,7 @@ def main():
     dp.add_handler(CommandHandler('list', list_items))
     dp.add_handler(CommandHandler('zelda', item))
     dp.add_handler(CommandHandler('imdb', imdb))
+
     # Start the Bot
     updater.start_polling()
 

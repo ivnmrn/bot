@@ -2,9 +2,9 @@
 
 from telegram.ext import Updater, CommandHandler
 from telegram import ReplyKeyboardMarkup
-from config.auth import token
+from config.auth import *
 from zelda_items import materials
-from util import beautifier_nasa, beautifier_material, beautifier_help, beautifier_notfound, beautifier_filmafinity
+from util import beautifier_nasa, beautifier_material, beautifier_help, beautifier_notfound, beautifier_imdb
 import requests
 import random
 
@@ -20,7 +20,7 @@ def help(update, context):
 
 
 def keyboard(update, context):
-    reply_markup = ReplyKeyboardMarkup([['/start', ], ['/nasa', '/fox'], ['/help', ]])
+    reply_markup = ReplyKeyboardMarkup([['/start', '/help'], ['/nasa', '/fox'], ['/imdb', ]])
     context.bot.send_message(chat_id=update.message.chat_id,
                              text="Here you have a menu🐯",
                              reply_markup=reply_markup)
@@ -56,17 +56,22 @@ def item(update, context):
                                  parse_mode='HTML')
 
 
-def filmafinity(update, context):
-    key = '798835be'
-    fylm = " ".join(context.args)
-    r = requests.get(f'http://www.omdbapi.com/?apikey={key}&t={fylm}').json()
-    context.bot.send_message(chat_id=update.message.chat_id,
-                            text=beautifier_filmafinity(r),
-                            parse_mode='HTML')
+def imdb(update, context):
+    movie = " ".join(context.args)
+    if movie == '':
+        context.bot.send_message(chat_id=update.message.chat_id,
+                                text='Send movie tittle, example:\n/imdb deadpool'
+                                )
+    else:
+        r = requests.get(f'http://www.omdbapi.com/?apikey={TOKEN_IMDB}&t={movie}').json()
+        context.bot.send_message(chat_id=update.message.chat_id,
+                                text=beautifier_imdb(r),
+                                parse_mode='HTML')
+
 
 
 def main():
-    updater = Updater(token=token, use_context=True)
+    updater = Updater(token=TOKEN_TELEGRAM, use_context=True)
     dp = updater.dispatcher
 
     # On different commands - answer in Telegram
@@ -77,7 +82,8 @@ def main():
     dp.add_handler(CommandHandler('nasa', nasa))
     dp.add_handler(CommandHandler('list', list_items))
     dp.add_handler(CommandHandler('zelda', item))
-    dp.add_handler(CommandHandler('filmafinity', filmafinity))
+    dp.add_handler(CommandHandler('imdb', imdb))
+
     # Start the Bot
     updater.start_polling()
 
@@ -86,3 +92,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

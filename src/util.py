@@ -1,5 +1,5 @@
 def beautifier_help():
-    result = "🐯<b>Available commands: 🐯</b>\n\n •/fox \n •/nasa \n •/g + [text]\n •/zelda + [item]"
+    result = "🐯<b>Available commands: 🐯</b>\n\n •/fox \n •/nasa \n •/imdb + [movie]\n •/zelda + [item]"
     return result
 
 
@@ -24,7 +24,7 @@ def beautifier_nasa(r):
     result = f"🛰<b>{r['title']}</b>🛰(<a href='{r['url']}'>{r['date']}</a>) \n{r['explanation']}"
     return result
 
-def beautifier_filmafinity(r):
+def beautifier_imdb(r):
     try:
         title = r['Title']
         year = r['Year']
